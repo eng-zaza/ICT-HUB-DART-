@@ -59,12 +59,6 @@ void  main()
 //   firstName: "Karim",
 //   lastName: "Ahmed"
 // ) ;
-print(calculate(
-  x : 50 ,
-  y : 80 ,
-  operation : '*' , 
-)) ;
-
 }
 // void printname()
 // {
@@ -84,21 +78,4 @@ print(calculate(
 // }) {
 //   print("My name is $firstName $lastName");
 // }
-int calculate ( {
-  required int x , required int y,required String operation}
-)
-{
-  int result = 0 ;
-  switch (operation)
-  {
-    case '+' :
-      result = x + y ;
-      case '-' :
-      result = x - y ;  
-      case '*' :
-      result = x * y ;
-      case '/' :
-      result = x ~/ y ;
-  }
-  return result ;
-}
+

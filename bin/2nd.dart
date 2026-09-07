@@ -71,8 +71,8 @@ void  main()
 //   print("Hello Karim");
 
 // } while(y<5) ;
- student s1 = student("Karim", 20);
-s1.printstudentinfo();
+// final student s1 = student("Karim", 20);
+// s1.printstudentinfo();
 }
 // void printname()
 // {

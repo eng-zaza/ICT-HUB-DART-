@@ -1,4 +1,5 @@
 // ignore: file_names
+import 'oop.dart';
 void  main()
 
 {
@@ -59,6 +60,19 @@ void  main()
 //   firstName: "Karim",
 //   lastName: "Ahmed"
 // ) ;
+// for (int i = 0; i < 5; i++)
+// {
+//   print(i);
+// }
+// int y =0 ;
+// do
+// {
+//   y++;
+//   print("Hello Karim");
+
+// } while(y<5) ;
+ student s1 = student("Karim", 20);
+s1.printstudentinfo();
 }
 // void printname()
 // {

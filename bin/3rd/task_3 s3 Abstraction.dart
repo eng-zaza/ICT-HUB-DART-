@@ -43,7 +43,7 @@ Doctor doctor2 = Doctor("nada");
   doctor.work();
   nurse.work();
   receptionist.work();
-  print("(-----------/-/-/-/-/)");
+  print("-----------/-/-/-/-/");
   doctor2.work();
   nurse2.work();
   receptionist2.work();
